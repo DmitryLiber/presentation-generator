@@ -1,0 +1,72 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: #1a4843;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #0b66bb;
+  padding: 15px 20px;
+  border-radius: 15px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  transition: opacity 0.3s;
+  line-height: 1;
+}
+
+.btn--alt {
+  background-color: #222;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  background-color: #0b66bb;
+}
+
+.btn.active {
+  opacity: 0.8;
+}
+
+.btn--gap {
+  margin-top: 20px;
+}
+
+.btn--centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.btn--xs {
+  padding: 8px 11px 8px;
+  border-radius: 10px;
+}
+
+.btn-tabs {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
